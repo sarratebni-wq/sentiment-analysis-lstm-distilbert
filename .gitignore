@@ -1,0 +1,35 @@
+﻿# Virtual Environment
+venv/
+__pycache__/
+*.pyc
+.Python
+env/
+
+# Large files - NOT included in repo
+lstm_sentiment_model.h5
+distilbert_sentiment_model/
+tokenizer.pkl
+preprocessing_metadata.pkl
+evaluation_results.pkl
+*.safetensors
+*.bin
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+*.egg-info/
+dist/
+build/
